@@ -1,0 +1,330 @@
+<html>
+<head>
+<style>
+body{
+	background:url("home2.jpeg");
+	background-repeat:no-repeat;
+	height:100%;
+	background-size:cover;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	color:yellow;
+}
+.menudropdown1{
+	width:110%;
+	height:100px;
+	margin:0px auto;
+	align:center;
+	margin:auto;
+	
+}
+.menudropdown1 ul{
+	padding:10px;
+	top:10%;
+}
+.menudropdown1 ul li{
+	float:left;
+	background-color:red;
+	color:white;
+	width:146px;
+	height:40px;
+	line-height:32px;
+	text-align:center;
+	list-style:none;
+	opacity:0.6;
+}
+.menudropdown1 ul li ul{
+	display:none;
+}
+.menudropdown1 ul li:hover>ul{
+	display:block;
+}
+.menudropdown1 ul li:hover{
+	background-color:blue;
+	opacity:0.9;
+}
+.menudropdown1 ul li ul li {
+	position:relative;
+}
+.menudropdown1 ul li ul li ul{
+	position:absolute;
+	left:200px;
+	top:0px;
+}
+	
+h3
+{
+text-align:right;
+ color:black;
+ }
+ h3:hover{
+ color:navy;
+ text-decoration:underline;
+ }
+.sc{
+border:none;
+	background:linear-gradient(to top left, #ffff66 0%, #ff9999 78%);
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:18px;
+	border-radius:10px;
+}
+form{
+width:1000px;
+margin:auto;
+margin-top:12px;
+}
+.search{
+width:70%;
+padding:8px;
+font-size:15px;
+font-family:Comic Sans MS;
+}
+.submit{
+width:15%;
+padding:8px;
+font-size:20px;
+background-color:orange;
+color:white;
+font-family:Agency FB;
+}
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+body{
+	margin:0 auto;
+	width:70%;
+}
+
+.slider{
+	overflow:hidden;
+	height:400px;
+}
+
+.slider figure div{
+	float:left;
+	width:20%;
+}
+
+.slider figure img{
+	float:left;
+	width:60%;
+}
+
+.slider figure{
+position:relative;
+width:500%;
+margin:0px;
+left:0;
+animation:20s len infinite;
+}
+
+@keyframes len{
+	0%{
+		left:0%;
+	}
+	
+	10%{
+		left:0%;
+	}
+	
+	12%{
+	left:-100%;	
+	}
+	
+	22%{
+	left:-100%;	
+	}
+	
+	24%{
+	left:-200%;	
+	}
+	
+	34%{
+	left:-200%;	
+	}
+	
+	36%{
+	left:-300%;	
+	}
+	
+	46%{
+	left:-300%;	
+	}
+	
+	48%{
+		left:-400%;	
+	}
+	
+	58%{
+	left:-400%;		
+	}
+	
+	60%{
+	left:-300%;		
+	}
+	
+	70%{
+	left:-300%;		
+	}
+	
+	72%{
+	left:-200%;		
+	}
+	
+	82%{
+	left:-200%;		
+	}
+	
+	84%{
+		left:-100%;	
+	}
+	
+	94%{
+		left:-100%;	
+	}
+	
+	96%{
+	left:0%;		
+	}
+	
+}
+.cbox
+{
+float:left;
+}
+</style>
+<body>
+<a href="buyerseller.html"><h3>Sign In/Register</h3>
+<a href="buyerseller.html"><h3>View Cart</h3>
+<form>
+<input class="search" type="text" name="" placeholder="Type to search">
+<input type="submit" name ="submit" class ="submit" value ="Search">
+</form>
+
+
+	<a class="search-btn"=href="#">
+<i class ="fas fa-search"></i>
+</a>
+ </div>
+<div class="menudropdown1">
+<ul>
+<li>Women
+<ul>
+<a href="saree.html"><li>Saree</li>
+<a href="kurti.html"><li>Kurti</li>
+<a href="churidar.html"><li>Churidar</li>
+<a href="skirts.html"><li>Skirts</li>
+<a href="toptees.html"><li>Top & Tees</li>
+<a href="dress.html"><li>Dress</li>
+<a href="ladyfor.html"><li>Shoes</li>
+</ul>
+</li>
+  <li>Men
+   <ul>
+  <a href="shirt.html"><li>T-Shirt</li></a>
+	<a href="trouser.html"><li>Jeans & Cargo</li></a>
+   <a href="tshirt.html"><li>shirt</li></a>
+   <a href="jackets.html"><li>Jackets</li></a>
+	<a href="formalshoes.html"><li>Formal Shoes</li></a>
+   <a href="sandals.html"><li>Sandals & Slippers</li></a>
+   <a href="sneaker.html"><li>Sneaker</li></a>	
+  </ul>
+  </li>
+
+  <li>Sports
+   <ul>	
+  <a href="cricketbats.html"><li>Cricket bats</li></a>
+	<a href="football.html"><li>Football</li></a>
+   <a href="badmintonracquets.html"><li>Badminton Racquets</li></a>
+   <a href="tabletennis.html"><li>Table Tennis</li></a>
+	<a href="basketball.html"><li>Basketball</li></a>
+  </ul>
+  </li>
+
+  <li>Mobile & electronics
+   <ul>
+  <a href="laptop.html"><li>Computers</li></a>
+	<a href="smartphn.html"><li>Smartphones</li></a>
+   <a href="mobiletablets.html"><li>Mobile & Tablets</li></a>
+   <a href="tv.html"><li>TV</li></a>
+	<a href="audio.html"><li>Portable Audio</li></a>
+  </ul>
+  </li>
+
+  <li>Home & Kitchen
+  <ul>
+  <a href="kstore.html"><li>Dinner sets & cooking utensils</li></a>
+	<a href="blenderschoppers.html"><li>Blenders grinders & Choppers</li></a>
+   <a href="lightings.html"><li>Bulbs & Tubelight</li></a>
+   <a href="furniture.html"><li>Furniture</li></a>
+  </ul>
+  </li>
+<li>Kids
+<ul>
+<a href="tops.html"><li>Tops & Tees</li>
+<a href="trousers.html"><li>Jeans & Trousers </li>
+<a href="frock.html"><li>Frocks & Dresses</li>
+<a href="hsafe.html"><li>Babycare</li>
+</ul>
+</li>
+<li>Travelling Bags
+<ul>
+<a href="bags.html"><li>Backpacks & Laptop bags</li>
+<a href="trolleybags.html"><li>Trolley & Duffle Bags</li>
+<a href="messengerbags.html"><li>Messenger Bags</li>
+<a href="rucsack.html"><li>Rucksack</li>
+</ul>
+</li>
+
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<BR>
+<br>
+<br>
+
+
+<div class="slider">
+<figure>
+    <div class="slide">
+	<a href="clothing.html"><img src="clothing slide.jpg" alt="">
+    </div>
+	 <div class="slide">
+	<a href="electronics.html"><img src="electronicsoffer.jpg" alt="">
+    </div>
+    <div class="slide">
+	<a href="shooo.html"><img src="shoes ad.png" alt="">
+    </div>
+    <div class="slide">
+	<a href="athlete.html"><img src="sports.jpg" alt="">
+    </div>
+    <div class="slide">
+	<a href="signin.html"><img src="hindware.png" alt=""></a>
+    </div>
+</figure>
+  </div>
+</body>
+</head>
+</html>
